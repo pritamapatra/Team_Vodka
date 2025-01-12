@@ -1,8 +1,12 @@
 import React from 'react'
+import LandingPage from './Components/LandingPage'
 
 const App = () => {
   return (
-    <div className='bg-black'>App</div>
+    <div>
+      <LandingPage/>
+    </div>
+    
   )
 }
 
