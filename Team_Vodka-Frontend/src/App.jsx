@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import './App.css'
+import LandingPage from './Pages/LandingPage'
+import Dashboard from './Pages/Dashboard'
+import InterviewBooking from './Pages/InterviewBooking'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-       <div className='text-5xl'>Welcome to my website</div>
+        <InterviewBooking/>
+        <Dashboard/>
+        <LandingPage/>
+        
     </>
   )
 }
